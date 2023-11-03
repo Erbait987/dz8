@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>жизнь студента</title>
+    <style>
+      .mytext {
+        display: none;
+      }
+      .hide {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper" style="display: flex; justify-content: space-around">
+      <div class="game__main">
+        <a href="../index.html">
+          <div class="circle">назад</div>
+        </a>
+        <ul class="main__stats">
+          <li class="stats-health">
+            <p>Здоровье:</p>
+            <span id="health">100</span>
+          </li>
+          <li class="stats-money">
+            <p>Деньги:</p>
+            <span id="money">100</span>
+          </li>
+          <li class="stats-hunger">
+            <p>Сытость:</p>
+            <span id="hunger">100</span>
+          </li>
+          <li class="stats-cheerfulness">
+            <p>Бодрость:</p>
+            <span id="cheerfulness">100</span>
+          </li>
+          <li class="stats-mood">
+            <p>Настроение:</p>
+            <span id="mood">100</span>
+          </li>
+          <li class="stats-mood">
+            <p>Учеба:</p>
+            <span id="study-mood"></span>
+          </li>
+        </ul>
+        <div class="game__actions">
+          <button id="study">Учиться</button>
+          <button id="work">Работать</button>
+          <button id="eat">Покушать</button>
+          <button id="rest">Отдыхать</button>
+        </div>
+      </div>
+      <div class="text">
+        <button id="open-btn">OPEN</button>
+        <h2 class="mytext" style="width: 300px">
+          Возможно есть баги,но видимых багов я не нашел,над логикой долго не
+          ломал голову и подбор значений может быть неправильным,но моей целью
+          было просто показать и сделать функционал,Возможно со временем
+          доработаю ее и сделаю полноценный симулятор!
+        </h2>
+      </div>
+      <div class="music">
+        <h2>ЧТО БЫ СОВСЕМ НЕ БЫЛО СКУЧНО</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/WoVagtQTwbE?si=RJY8PPV8AI2AyGuE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+  <script src="../js/game.js"></script>
+</html>

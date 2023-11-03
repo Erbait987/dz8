@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/piano.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="../index.html">
+      <div class="circle">назад</div>
+    </a>
+
+    <div class="wrapper">
+      <header>
+        <div class="column volume-slider">
+          <span>Volume</span>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            value="0.5"
+            step="any"
+            style="
+              background: linear-gradient(
+                to right,
+                rgb(255, 255, 255) 100%,
+                rgb(75, 75, 75) 100%
+              );
+            "
+          />
+        </div>
+        <div class="column keys-checkbox">
+          <span>Show Keys</span><input type="checkbox" checked="" />
+        </div>
+      </header>
+      <ul class="piano-keys">
+        <li class="key white" data-key="a"><span>a</span></li>
+        <li class="key black" data-key="w"><span>w</span></li>
+        <li class="key white" data-key="s"><span>s</span></li>
+        <li class="key black" data-key="e"><span>e</span></li>
+        <li class="key white" data-key="d"><span>d</span></li>
+        <li class="key white" data-key="f"><span>f</span></li>
+        <li class="key black" data-key="t"><span>t</span></li>
+        <li class="key white" data-key="g"><span>g</span></li>
+        <li class="key black" data-key="y"><span>y</span></li>
+        <li class="key white" data-key="h"><span>h</span></li>
+        <li class="key black" data-key="u"><span>u</span></li>
+        <li class="key white" data-key="j"><span>j</span></li>
+        <li class="key white" data-key="k"><span>k</span></li>
+        <li class="key black" data-key="o"><span>o</span></li>
+        <li class="key white" data-key="l"><span>l</span></li>
+        <li class="key black" data-key="p"><span>p</span></li>
+        <li class="key white" data-key=";"><span>;</span></li>
+      </ul>
+      <a href="https://www.youtube.com/watch?v=Mv1ZYpo8q4g&t=1063s"
+        >ТУТ ССЫЛКА НА Видео этого Пианнино,правда багов много,так что
+        пользуйтесь моим кодом!</a
+      >
+    </div>
+  </body>
+  <script src="../js/piano.js"></script>
+</html>
